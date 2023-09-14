@@ -32,7 +32,7 @@ public class grenadeController : MonoBehaviour
 
             // Play audio
             pulseAudioSource.Play();
-
+            Debug.Log("asdfasd");
             elapsed += Time.deltaTime;
 
             // Wait for the next frame
